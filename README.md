@@ -2,7 +2,9 @@
 
 I merge the pytorch implementation version of Tensor fusion network [TFN](https://github.com/Justin1904/TensorFusionNetworks) and CMU-MOSI dataset preprocessing [CMU-MultimodalSDK-Tutorials](https://github.com/Justin1904/CMU-MultimodalSDK-Tutorials/blob/master/tutorial_interactive.ipynb), such that tensor fusion network can run on the latest version of CMU-MOSI dataset.
 
-The following part is the README.txt in CMU-MultimodalSDK-Tutorials:
+The following part is adapted from the README.txt in [CMU-MultimodalSDK-Tutorials](https://github.com/Justin1904/CMU-MultimodalSDK-Tutorials/blob/master/tutorial_interactive.ipynb)):
+
+---
 
 This is a short tutorial for using the [CMU-MultimodalSDK](https://github.com/A2Zadeh/CMU-MultimodalSDK).
 
@@ -14,6 +16,7 @@ If you have downloaded pretrained embeddings such as [GloVe](https://nlp.stanfor
 
 Note that in the `./data/` directory there is a `./CMU_MOSI_ModifiedTimestampedWords.csd`. This is an updated copy of transcripts compared to what the [SDK](https://github.com/A2Zadeh/CMU-MultimodalSDK) is currently offering by default and improves the performance by a observable margin. If you are changing the `DATA_PATH` in `./constants/paths.py`, please also copy this file to your specified location.
 
-Then you are good to go, just open the `./tutorial_interactive.ipynb` notebook in jupyter notebook and walk through its content!
+---
+We modify the codings in `./tutorial_interactive.ipynb` in [CMU-MultimodalSDK](https://github.com/A2Zadeh/CMU-MultimodalSDK). and replace it by `pipeline.py`.
 
 
